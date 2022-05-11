@@ -1,0 +1,112 @@
+.herocontact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.firstcontact,.secondcontact,.thirdcontact,.fourthcontact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.firstcontact p{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.secondcontact p{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.thirdcontact p{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.fourthcontact p{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.hero2contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.herologo{
+    height: 335px;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+    margin-left: -130px;
+    margin-top: 10px;
+}
+.right{
+    margin-top: 120px;
+}
+.right p{
+    color: white;
+}
+.right .para{
+    margin-left: 92px;   
+}
+.rightspan{
+    color: #1dbdfc;
+    font-size: 54px;
+    font-weight: 600;
+}
+.right2span{
+    color: #fff;
+    font-size: 54px;
+    font-weight: 600;
+    margin-left: 52px;
+}
+.glow{
+    color: #fcfb1d;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 11px #fcfb1d;
+    text-decoration: underline;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* animation: zoom-in-zoom-out 1s ease infinite; */
+    transition: transform .2s; /* Animation */
+
+}
+/* @keyframes glow{
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  } */
+
+  .glow:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .techno{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+  }
+  .rtechno{
+      display: flex;
+      flex-direction: row;
+  }
+  .rtechno p{
+      color: white;
+      font-size: 10px;
+      margin-left: 6px;
+  }
